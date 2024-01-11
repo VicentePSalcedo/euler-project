@@ -1,2 +1,5 @@
-# euler-project
-A repo for me to go ham and use rust.
+1. 233168
+2. 4613732
+3. 6857
+4. 906609
+5. 232792560

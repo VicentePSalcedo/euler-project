@@ -6,7 +6,7 @@ pub fn write_down_answer(question_num: i32, text: &str) -> std::io::Result<()> {
         .write(true)
         .append(true)
         .create(true)
-        .open("answer.txt")?;
+        .open("README.md")?;
     writeln!(&mut file, "{}. {}", question_num, text)?;
 
     Ok(())
