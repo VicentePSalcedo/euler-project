@@ -1,5 +1,5 @@
 #!/bin/bash
-rm answer.txt
+rm README.md
 for file in src/bin/*
 do
     filename=$(basename $file)
